@@ -42,7 +42,18 @@ a:focus {
 
 strong{
   font-weight:700;
+}
 
+/* unvisited link*/
+
+a:link, a:visited {
+    color:rebeccapurple;
+    border-bottom: none;
+}
+
+a:hover, a:active {
+    color: darkgrey;
+    border-bottom: 1px dashed;
 }
 
 /*
