@@ -47,7 +47,7 @@ strong{
 /* unvisited link*/
 
 a:link, a:visited {
-    color:rebeccapurple;
+    color:darksalmon;
     border-bottom: none;
 }
 
