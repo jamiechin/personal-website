@@ -581,8 +581,8 @@ FOOTER
 footer{
   background: #f1f1f1;
   width:100%;
-  margin-top:150px;
-  height:300px;
+  margin-top:75px;
+  height:100px;
   overflow:hidden;
   position:relative;
   z-index:10;
@@ -590,8 +590,8 @@ footer{
 
 .footer-margin{
   width:1140px;
-  margin: 30px auto;
-  line-height: 100px;
+  margin: 15px auto;
+  line-height: 75px;
 }
 
 #footer-left{text-align:left;}
@@ -621,7 +621,7 @@ footer{
 }
 
 .footer-margin .social-footer a:hover{
-  color:#c3c3c3;
+  color:darksalmon;
 }
 
 
