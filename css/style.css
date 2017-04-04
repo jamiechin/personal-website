@@ -553,19 +553,19 @@ li.grid-item{
 
 .grid-hover h1{
   font-size:25px;
-  bottom:80px;
-  left:30px;
+  bottom:110px;
+  left:25px;
   position:absolute;
   color:#000000;
   letter-spacing:px;
   font-weight:800;
-  line-height:35px;
+  line-height:30px;
 }
 
 .grid-hover p{
   font-size:13px;
   bottom:40px;
-  left:30px;
+  left:25px;
   position:absolute;
   color:#686868;
   letter-spacing:1px;
