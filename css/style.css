@@ -390,7 +390,7 @@ CONTENT
   width:40%;
   color:#000000;
   font-weight:800;
-  line-height:70px;
+  line-height:80px;
 }
 
 .content .text-intro h2{
@@ -570,7 +570,7 @@ li.grid-item{
   color:#686868;
   letter-spacing:1px;
   font-weight:400;
-  line-height:50px;
+  line-height:18px;
 }
 
 li.grid-item img{
