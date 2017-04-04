@@ -47,7 +47,7 @@ strong{
 /* unvisited link*/
 
 a:link, a:visited {
-    color:darksalmon;
+    color:tan;
     border-bottom: none;
 }
 
@@ -398,8 +398,8 @@ CONTENT
   font-size:13px;
   color:#8d8d8d;
   margin-top:30px;
-  font-weight:400;
-  line-height:22px;
+  font-weight:500;
+  line-height:24px;
   letter-spacing:1px;
   width:40%;
 }
