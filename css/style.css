@@ -231,7 +231,6 @@ ul.social-icon a:hover{
   top: 30px;
   z-index: 99999;
   padding:20px;
-  background:black;
   cursor:pointer;
 }
 
@@ -239,7 +238,7 @@ ul.social-icon a:hover{
 .menu-index i{
   float:right;
   font-size:18px;
-  color:white;
+  color:black;
   padding-right:0px !important;
 }
 
@@ -383,19 +382,27 @@ CONTENT
 .content .text-intro{
   width: 1140px;
   margin-top: 150px; 
-  margin: 200px auto 0;
+  margin: 140px auto 0;
 }
 
 .content .text-intro h1{
-  font-size:43px;
+  font-size:40px;
   width:40%;
   color:#000000;
   font-weight:800;
   line-height:70px;
 }
 
+.content .text-intro h2{
+  font-size:33px;
+  width:40%;
+  color:#000000;
+  font-weight:800;
+  line-height: 45px;
+}
+
 .content .text-intro p{
-  font-size:13px;
+  font-size:14px;
   color:#8d8d8d;
   margin-top:30px;
   font-weight:500;
@@ -532,7 +539,7 @@ li.grid-item{
   top:0;
   background: white;
   z-index: 2;
-  opacity: 0;
+  opacity: -1;
   -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
 	-ms-transition: all 0.2s ease-in;
@@ -545,20 +552,20 @@ li.grid-item{
 }
 
 .grid-hover h1{
-  font-size:23px;
+  font-size:25px;
   bottom:80px;
-  left:40px;
+  left:30px;
   position:absolute;
   color:#000000;
-  letter-spacing:1px;
-  font-weight:900;
-  line-height:50px;
+  letter-spacing:px;
+  font-weight:800;
+  line-height:35px;
 }
 
 .grid-hover p{
   font-size:13px;
   bottom:40px;
-  left:40px;
+  left:30px;
   position:absolute;
   color:#686868;
   letter-spacing:1px;
