@@ -168,7 +168,7 @@ $(document).ready(function(){
 	setTimeout( function(){
 		if($("#site-type").length) {
         $(".typewrite span").typed({
-            strings: ["design.", "create.", "always ask why."],
+            strings: ["push pixels.", "create with purpose.", "always ask why."],
             typeSpeed: 100,
             backDelay: 700,
             loop: true,
