@@ -1,3 +1,4 @@
+
 $(function() {
 
 
@@ -5,13 +6,7 @@ $(function() {
 Load Page
 ---------------------------------------------*/
 		
-	$('body').waitForImages({
-		finished: function() {
-				Website();
-				$('body').jKit();
-		},
-		waitForAll: true
-	});
+
 
 
 /*-------------------------------------------
@@ -161,26 +156,6 @@ function backgroundmenu() {
 Typewriting init script
 ---------------------------------------------*/
 
-function Typewriting() {
-
-
-$(document).ready(function(){
-	setTimeout( function(){
-		if($("#site-type").length) {
-        $(".typewrite span").typed({
-            strings: ["creation with intention", "storytelling" "always asking why."],
-            typeSpeed: 100,
-            backDelay: 700,
-            loop: true,
-            contentType: 'html', // or text
-            // defaults to false for infinite loop
-            loopCount: false,
-        });
-    }
-	}, 3000);
-});
-}
-
 
 /*-------------------------------------------
 Amazing Fade with scroll Sidebar
@@ -242,4 +217,4 @@ function hidePreloader() {
 
 
 
-})//End
+})//End  

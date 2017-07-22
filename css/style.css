@@ -23,6 +23,7 @@ p{
   font-family: 'Raleway', sans-serif;
   font-size:14px;
   font-weight: 400;
+
 }
 
 a{
@@ -55,59 +56,6 @@ a:hover, a:active {
     border-bottom: 1px dashed;
 }
 
-/*
-**************************
-PRELOADER
-**************************
-*/
-
-.preloader{
-  position:fixed;
-  top:0;
-  width:100%;
-  height:100%;
-  background:white;
-  z-index:999;
-}
- 
-.preloader .item{
-  position:absolute;
-  width:50px;
-  height:50px;
-  left:50%;
-  top:50%;
-  margin-left:-25px;
-  margin-top:-25px;
-} 
-
-.spinner {
-  width: 40px;
-  height: 40px;
-  margin: 0px auto;
-  background-color: #333;
-  border-radius: 100%;  
-  -webkit-animation: scaleout 1.0s infinite ease-in-out;
-  animation: scaleout 1.0s infinite ease-in-out;
-}
-
-@-webkit-keyframes scaleout {
-  0% { -webkit-transform: scale(0.0) }
-  100% {
-    -webkit-transform: scale(1.0);
-    opacity: 0;
-  }
-}
-
-@keyframes scaleout {
-  0% { 
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 100% {
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-    opacity: 0;
-  }
-}
 
 
 
@@ -276,12 +224,12 @@ ul.header-nav{
 }
 
 header .logo > a{
-  font-size:23px;
-  font-weight:800;
   float:left;
-  line-height:80px;
+  line-height:90px;
   padding-right:40px;
+  margin-top: 20px;
   border-bottom: 1px solid #f1f1f1;
+  width: 100%;
 }
 
 header .logo > a:hover{
@@ -289,7 +237,10 @@ header .logo > a:hover{
 }
 
 header li{
-  list-style-type: none; margin-right: 100px; float: right;
+  list-style-type: none;
+    margin-top: -120px;
+    float: right;
+    
 }
 
 header li > a{
@@ -299,7 +250,7 @@ header li > a{
   padding-right:25px;
   padding-left:25px;
   line-height:100px;
-  display:inline-block;  
+  display: fixed;
   border-bottom:0;
 }
 
@@ -372,30 +323,23 @@ CONTENT
 .content .text-intro{
   width: 1140px;
   margin-top: 150px; 
-  margin: 140px auto 0;
+  margin: 80px auto 0;
 }
 
 .content .text-intro h1{
   font-size:35px;
   color: black;
-  font-weight:800;
-  line-height:65px;
+  font-weight:600;
+  line-height: 40px;
 }
 
-.content .text-intro h2{
-  font-size:32px;
-  width:40%;
-  color:#000000;
-  font-weight:800;
-  line-height: 45px;
-}
 
 .content .text-intro p{
   font-size:14px;
   color:#8d8d8d;
   margin-top:30px;
   font-weight:500;
-  line-height:24px;
+  line-height:25px;
   letter-spacing:1px;
   width:40%;
 }
