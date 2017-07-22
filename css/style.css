@@ -322,26 +322,27 @@ CONTENT
 
 .content .text-intro{
   width: 1140px;
-  margin-top: 150px; 
+  margin-top: 130px; 
   margin: 80px auto 0;
 }
 
 .content .text-intro h1{
-  font-size:35px;
+  font-size:38px;
   color: black;
-  font-weight:600;
-  line-height: 40px;
+  font-weight:700;
+  line-height: 50px;
+  margin-top: -30px;
 }
 
 
 .content .text-intro p{
   font-size:14px;
   color:#8d8d8d;
-  margin-top:30px;
+  margin-top:15px;
   font-weight:500;
   line-height:25px;
   letter-spacing:1px;
-  width:40%;
+  width:100%;
 }
 
         .typed-cursor{
