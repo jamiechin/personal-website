@@ -7,17 +7,6 @@ body{
   -webkit-font-smoothing: antialiased;
 }
 
-::selection {
-		background: #000;
-		color: #fff;
-		text-shadow: none;
-	}
-	
-	::-moz-selection {
-		background: #000;
-		color: #fff;
-		text-shadow: none;
-	}
 
 p{
   font-family: 'Raleway', sans-serif;
@@ -51,23 +40,13 @@ a:link, a:visited {
     border-bottom: none;
 }
 
-a:hover, a:active {
-    color: darkgrey;
-    border-bottom: 1px dashed;
+a:hover {
+    color: whitesmoke;
+    border-bottom: none;
 }
 
 
-
-
-
-
-/*
-**************************
-NAVIGATION OPACITY
-**************************
-*/
-
-
+/* navigation opacity */
 
 .opacity-nav{
   position:fixed;
@@ -123,11 +102,9 @@ ul.menu-fullscreen li > a:hover{
   z-index: 9998;
 }
 
-/*
-**************************
-HEADER
-**************************
-*/
+
+
+/* header */
 
 header.boxed{
   position:fixed;
@@ -282,11 +259,7 @@ header li:hover ul{
 
 
 
-/*
-**************************
-CONTENT
-**************************
-*/
+/* content */
 
 
 .one-column{
@@ -380,11 +353,7 @@ CONTENT
             100% { opacity:1; }
         }
 
-/*
-**************************
-HOME SIDEBAR
-**************************
-*/
+/* home sidebar */
 
 .home-sidebar{
   top:0;
@@ -406,11 +375,7 @@ HOME SIDEBAR
   position:absolute; width:100%; height:100%;
 }
 
-/*
-**************************
-PORTFOLIO GRID
-**************************
-*/
+/* portfolio grid */
 
 .prev-next{
   width:100%;
@@ -514,11 +479,7 @@ li.grid-item img{
 
 
 
-/*
-**************************
-FOOTER
-**************************
-*/
+/* footer */
 
 #footer-box{height:150px; margin-top:75px;}
 
@@ -533,7 +494,7 @@ footer{
 
 .footer-margin{
   width:1140px;
-  margin: 15px auto;
+  margin: 10px auto;
   line-height: 75px;
 }
 
@@ -552,9 +513,9 @@ footer{
 .footer-margin .social-footer a{
   font-size:15px;
   color:black;
-  padding: 20px;
+  padding: 25px;
 }
 
 .footer-margin .social-footer a:hover{
-  color:darksalmon;
+  color:whitesmoke;
 }
