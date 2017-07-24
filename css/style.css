@@ -46,6 +46,7 @@ a:hover {
 }
 
 
+
 /* navigation opacity */
 
 .opacity-nav{
@@ -261,7 +262,6 @@ header li:hover ul{
 
 /* content */
 
-
 .one-column{
   width:40%;
   position:relative;
@@ -414,8 +414,9 @@ header li:hover ul{
 .portfolio-grid{
   width:1170px;
   position:relative;
-  margin: 30px auto;
-  overflow:hidden;
+  margin: 40px auto;
+    
+  overflow:hidden;  
 }
 
 #portfolio-sidebar{
@@ -425,10 +426,10 @@ header li:hover ul{
 }
 
 li.grid-item{
-  width:360px;
+  width:300px;
   position:relative;
   float:left;
-  padding:15px;
+  padding:12px;
 }
 
 .grid-hover{
@@ -473,7 +474,7 @@ li.grid-item{
 }
 
 li.grid-item img{
-  width:360px;
+  width:400px;
 }
 
 
