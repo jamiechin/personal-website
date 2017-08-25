@@ -263,19 +263,19 @@ header li:hover ul{
 /* content */
 
 .one-column{
-  width:40%;
+  width:30%;
   position:relative;
   float:left;
 }
 
 .two-column{
-  width:60%;
+  width:70%;
   position:relative;
   float:left;
 }
 
 .one-column p{
-  width:70% !important;
+  width:80% !important;
 }
 
 .two-column p{
@@ -300,8 +300,8 @@ header li:hover ul{
 }
 
 .content .text-intro h1{
-  font-size:38px;
-  color: black;
+  font-size:33px;
+  color: #333333;
   font-weight:700;
   line-height: 50px;
   margin-top: -30px;
@@ -309,11 +309,11 @@ header li:hover ul{
 
 
 .content .text-intro p{
-  font-size:14px;
-  color:#8d8d8d;
+  font-size:15px;
+  color: dimgray;
   margin-top:15px;
-  font-weight:500;
-  line-height:25px;
+  font-weight:400;
+  line-height:17px;
   letter-spacing:1px;
   width:100%;
 }
@@ -375,38 +375,6 @@ header li:hover ul{
   position:absolute; width:100%; height:100%;
 }
 
-/* portfolio grid */
-
-.prev-next{
-  width:100%;
-  max-width:1170px;
-  margin:0 auto;
-  padding-top:100px;
-}
-
-.prev-next a{
-  color:black;
-  font-weight:500;
-  padding-bottom: 15px;
-}
-
-.prev-next a:hover{
-  border-bottom:1px solid black;
-}
-
-.prev-button{
-  width:50%;
-  position:relative;
-  float:left;
-  text-align:left;
-}
-
-.next-button{
-  width:50%;
-  position:relative;
-  float:left;
-  text-align:right;
-}
 
 
 #ajax-content{width:100%;}
