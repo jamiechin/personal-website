@@ -222,14 +222,15 @@ header li{
 }
 
 header li > a{
-  font-size:14px;
+  font-size:13px;
   font-weight:400;
-  color:#c3c3c3;
+  color:black;
   padding-right:13px;
   padding-left:13px;
   line-height:100px;
   display: fixed;
   border-bottom:0;
+  letter-spacing: 1px;
 }
 
 header li > a:hover{
@@ -300,7 +301,7 @@ header li:hover ul{
 }
 
 .content .text-intro h1{
-  font-size:33px;
+  font-size:32px;
   color: #333333;
   font-weight:700;
   line-height: 50px;
@@ -309,8 +310,8 @@ header li:hover ul{
 
 
 .content .text-intro p{
-  font-size:15px;
-  color: dimgray;
+  font-size:13px;
+  color: gray;
   margin-top:15px;
   font-weight:400;
   line-height:17px;
@@ -420,19 +421,20 @@ li.grid-item{
 }
 
 .grid-hover h1{
-  font-size:25px;
+  font-size:20px;
   bottom:110px;
   left:25px;
+  right: 25px;
   position:absolute;
-  color:#000000;
-  letter-spacing:px;
-  font-weight:800;
-  line-height:30px;
+  color:dimgray;
+  font-weight:700;
+  line-height:25px;
 }
 
 .grid-hover p{
-  font-size:13px;
+  font-size:12px;
   bottom:40px;
+  right: 25px;
   left:25px;
   position:absolute;
   color:#686868;
